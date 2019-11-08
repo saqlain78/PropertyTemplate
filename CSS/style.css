@@ -1,0 +1,707 @@
+/* =============================================
+		Template Reset CSS
+============================================= */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+/* =============================================
+		Tempalte CSS Starts
+============================================= */
+body{
+   font-family: 'Nunito', sans-serif;
+}
+img{
+	max-width: 100%;
+}
+h2{
+	font-size: 30px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+/* =============================================
+			Header style					
+============================================= */
+
+/* =============================================
+			Top-Header Style starts				
+============================================= */
+header{
+	background-image: url(../images/tower.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+.top-header{
+	background-color: #465866;
+	opacity: 0.8;
+}
+.top-header figure{
+	display: inline-block;
+}
+.logo{
+	display: block;
+}
+.nav-register{
+	text-align: center;
+	line-height: 100px;
+}
+.nav-register > ul{
+	list-style: none;
+	font-size: 16px;
+	
+}
+.nav-register > ul li{
+	display: inline-block;
+	margin: 0 0 0 30px;
+	position: relative;
+}
+.nav-register li a{
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+}
+.nav-register li a i{
+	margin-left: 5px;
+}
+.nav-register > ul li > .inside-ul{
+    display: none;
+    position: absolute;
+    background-color: white;
+    right: -40px;
+    width: 210px;
+    padding: 0 15px;
+    line-height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.inside-ul:before {
+    position: absolute;
+    z-index: 1;
+    content: '';
+    border-style: solid;
+    left: calc(80% - 10px);
+    top: -14px;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #e1e1e1 transparent;
+}
+.nav-register > ul li > .inside-ul li a{
+	color: black;
+}
+.nav-register > ul li > .inside-ul li{
+	margin-left: 10px;
+	border-bottom: 1px solid #dedede;
+}
+.nav-register > ul li:hover > .inside-ul{
+	display: block;
+}
+.menu-icon {
+    display: none;
+    width: 50px;
+    height: 40px;
+    background: #4C8FEC url(../images/menu-icon.png) center;
+    background-repeat: no-repeat;
+}
+/* =============================================
+	Modal POPUP STYLE STARTS here				
+============================================= */
+.modal-title{
+margin:0 auto;
+}
+.modal-body #username{
+	border-left:none;
+	border-top:none;
+	border-right:none;
+	margin-bottom:5px;
+	padding-right:50px;
+}
+.modal-body #password{
+	border-left:none;
+	border-top:none;
+	border-right:none;
+	margin-bottom:30px;
+	padding-right:50px;
+}
+.modal-body .signin{
+	padding:10px 100px;
+	color:red;
+	display:inline-block;
+	border:2px solid red;
+	border-radius:30px;
+	margin-bottom:30px;
+}
+.modal-body .forgot{
+	display:inline-block;
+	float:right
+}
+.modal-body span i{
+	margin-right: 10px;
+}
+.modal-body span a{
+	color: white;
+}
+.modal-body .facebook{
+   padding:16px 25px;
+   background-color:blue;
+   color:white;
+   display:inline-block;
+   float:left;
+   margin-bottom: 10px;
+}
+.modal-body .google{
+	padding:16px 25px;
+	background-color:red;
+	color:white;
+	display:inline-block;
+	float:right;
+	margin-bottom: 10px;
+}
+
+.modal-body p{
+	text-align: center;
+	margin: 15px 0;
+}
+.modal-body .register{
+	color: red;
+	text-align: center;
+	display: inherit;
+}
+
+/* =============================================
+	Modal POPUP OF SIGNIN STYLE ENDS here				
+============================================= */
+
+/* =============================================
+		Top-Header Style ends  here				
+============================================= */
+
+.header-section{
+	padding-top: 158px;
+}
+.header-section h1{
+	font-size: 60px;
+	margin-bottom: 120px;
+	text-align: center;
+	color: white;
+	margin-top: 30px;
+}
+.header-section p{
+	font-size: 18px;
+	color: white;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.header-section .city{
+	border:none;
+	height: 48px;
+	width: 50%;
+	margin-right: 15px;
+	padding: 0 60px 0 14px;
+	border-right: 2px solid #e6e6e6;
+}
+
+.category-search{
+	margin: 0 auto;
+	background-color: white;
+	padding: 12px 0px 12px 10px;
+	border-radius: 8px;
+}
+.category-search .search{
+	display: inline-block;
+	padding:20px 40px;
+	background-color: #33aa58;
+	border-radius: 10px;
+	color: white;
+	margin-left: 45px;
+	text-decoration: none;
+	position: relative;
+    transition:width 0.25s ease;
+    transform: perspective(1px) translateZ(0);
+}
+ .category-search .search::after{
+   position: absolute;
+  content: '';
+  top:0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  border-radius: 10px;
+  color: green;
+  background-color: #f26c61;
+  transform-origin:left;
+  transition:width 0.25s ease;
+  z-index:-1;
+}
+
+  .category-search .search:hover::after{
+  width: 100%;
+}
+
+.category-search .status{
+	padding: 30px 40px;
+	text-decoration: none;
+	color: white;
+	background-color: #f26c61;
+}
+.category-search span i{
+	margin-right: 15px;
+}
+.highlighted-categories-headline{
+	color: white;
+	text-align: center;
+	margin-top: 100px;
+}
+.categories{
+	text-align: center;
+	padding: 80px 0 110px 0;
+	color: white;
+	opacity: 0.6;
+}
+.categories li{
+	display: inline-block;
+	margin: 0 39px 0 39px;
+}
+.categories li a{
+	text-decoration: none;
+	color: white;
+	margin-bottom: 10px;
+	display: inline-block;
+	font-size: 45px;
+	border-radius: 5px;
+	padding: 20px 30px;
+	background-color: #5a5446;
+}
+.categories li a i{
+	margin-bottom: 10px;
+}
+/* =============================================
+	Header STYLE ENDS here				
+============================================= */
+
+/* =============================================
+	POpular LISTING STYLE startS here				
+============================================= */
+.popular-listing{
+	background-color: #f3f4fb;
+}
+.popular-listing-title{
+	text-align: center;
+	padding: 58px 0;
+}
+.popular-listing-title h2{
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.popular-listing-title p{
+	font-size: 17px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #3e3e3e;
+}
+.properties-types-list{
+	text-align: center;
+	margin-top: 100px;
+}
+.properties-types-list ul{
+	display: inline-flex;
+	float: right;
+}
+.properties-types-list ul li{
+	margin-right: 15px;
+}
+.properties-types-list ul li a{
+	color: black;
+	text-decoration: none;
+}
+
+.listing-item-box{
+	margin-bottom: 30px;
+}
+.listing-item-box .rent{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	z-index: 1;
+	color: white;
+	border-radius: 30px;
+	background-color: #f26c61;
+	padding: 10px 13px;
+}
+.listing-item-box .description{
+	position: absolute;
+	top: 20px;
+	left: 32%;
+	z-index: 1;
+	border-radius: 30px;
+	color: white;
+	background-color: #8324e4;
+	padding: 10px 13px;
+}
+.listing-item-detail{
+	background-color: white;
+	padding: 20px 25px;
+}
+
+.listing-item-box h5{
+	margin: 0 0 20px 0;
+	font-size: 20px;
+	color: #5378a5;
+}
+.listing-item-box .listing-address-list{
+	font-size: 15px;
+	color: #7b7b7b;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.listing-item-box .listing-address-list li{
+	margin-bottom: 14px;
+}
+.listing-carousel .listing-address-list li i{
+	margin-right: 14px;
+	color: #f26c61;
+}
+
+
+.color-red{
+	color: #f26c61;
+}
+.listing-item-box .like-list{
+	display: inline-flex;
+	float: left;
+	margin-top: 8px;
+}
+.listing-item-box .like-list li{
+	margin-left: 10px;
+	display: inline;
+	background: #f7f7f7;
+    padding: 8px 8px;
+    border-radius: 10px;
+}
+.room-detail{
+	display: inline-flex;
+	margin-top: 20px;
+	line-height: 5px;
+}
+.room-detail li{
+	margin-right: 8px;
+}
+.room-detail li span i{
+	margin-right: 6px;
+}
+.room-detail li:after {
+    content: "|";
+    padding: 0px 3px;
+    font-size: 24px;
+    color: #9f723f;
+}
+.room-detail li:last-child:after {
+	content: none;
+}
+
+.user-experience{
+	position: absolute;
+	left: 20px;
+	top:130px;
+	color: white;
+}
+.user-experience img{
+	height: 30px;
+	width: 30px;
+}
+.user-experience .calendar{
+	margin-left: 100px;
+	color: white;
+}
+.user-experience .calendar i{
+	margin-right: 5px;
+}
+ .listing-carousel .owl-carousel .owl-nav .owl-prev i{
+    position: absolute;
+    top: 33%;
+    height: 30px;
+    left: -10px;
+    width: 30px;
+    line-height: 28px;
+    background: white;
+    border-radius: 50%;
+    color: red;
+}
+ .listing-carousel .owl-carousel .owl-nav .owl-prev i:hover{
+ 	background: red;
+ 	color: white;
+}
+.listing-carousel .owl-carousel .owl-nav .owl-next i{
+    position: absolute;
+    top: 33%;
+    height: 30px;
+    right: -14px;
+    width: 30px;
+    line-height: 28px;
+    background: white;
+    border-radius: 50%;
+    color: red;
+}
+ .listing-carousel .owl-carousel .owl-nav .owl-next i:hover{
+ 	background: red;
+ 	color: white;
+}
+
+.owl-dots{
+	text-align: center;
+	padding: 30px 0;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    display: block;
+    margin-right: 10px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: 1px solid red;
+}
+
+/* =============================================
+	POPULAR LISTING STYLE endS here				
+============================================= */
+
+/* =============================================
+	SERVICES STYLE STARTS here				
+============================================= */
+
+
+.services{
+	padding: 62px 0;
+}
+.services .services-info{
+	margin-bottom: 30px;
+	text-align: center;
+}
+.services-title {
+	margin-bottom: 30px
+}
+.services-title p{
+	padding-bottom: 62px;
+}
+.services-info{
+	padding: 30px 30px;
+	background-color: #f6f7f9;
+}
+.services-info h3{
+	font-size: 20px;
+	margin: 25px 0;
+	font-weight: bold;
+}
+.services-info p{
+	font-size: 15px;
+	color: #a4a4a4;
+	line-height: 23px;
+}
+
+/* =============================================
+	SERVICES STYLE ENDS here				
+============================================= */
+
+
+/* =============================================
+		About Us Starts here							
+============================================= */
+.about-us{
+	background-color: #3c3c3c;
+	border-bottom: 1px solid #565658;
+}
+.contact-us{
+	padding: 40px 0;
+}
+.contact-us ul{
+	display: inline-flex;
+	font-size: 18px;
+}
+.contact-us ul li{
+	margin-left: 30px;
+}
+.contact-us ul li a{
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+}
+
+/* =============================================
+		About Us ends here							
+============================================= */
+
+
+/* =============================================
+		Footer STYLE starts here							
+============================================= */
+
+/* =============================================
+		main-Footer STYLE starts here							
+============================================= */
+
+.main-footer{
+	padding: 50px 0;
+	background-color: #212121;
+}
+.main-footer p{
+    margin: 30px 13px 0 0;
+    color: #727272;
+    line-height: 26px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.main-footer h3{
+	font-size: 20px;
+	margin-bottom: 28px;
+	border-bottom: 1px solid red;
+    padding: 20px 0px;
+	color: white;
+}
+.main-footer li{
+	color: #727272;
+}
+.main-footer .social-links{
+	display: inline-flex;
+	margin-top: 30px;
+}
+.contact-details{
+	margin-bottom: 30px;
+}
+.connect-with-us{
+	margin-bottom: 30px;
+}
+.connect-with-us .input{
+	margin-bottom: 50px;
+}
+.connect-with-us .input label{
+	color: #cdcbcc;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.input .enter-email{
+    width: 100%;
+    font-size: 14px;
+    opacity: 0.9;
+    padding: 11px 3px 11px 3px;
+    background: #3a3a3a;
+    color: #76838f;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.connect-with-us .input .btn-enter{
+    font-size: 13px;
+    font-weight: bold;
+    float: right;
+    color: white;
+    background-color: #f26c61;
+    margin-top: -35px;
+    margin-right: 8px;
+    opacity: 0.9;
+    padding: 8px 10px 7px 10px;
+    display: inline-block;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    text-transform: uppercase;
+}
+.connect-with-us h5{
+	color: #cdcbcc;
+	font-size: 18px;
+}
+.find-cities{
+	margin-bottom: 30px;
+}
+.Links-list li a{
+	text-decoration: none;
+	color: #cdcbcc;
+}
+
+.main-footer .social-links li{
+	margin-right: 19px;
+}
+.main-footer .social-links li a{
+	display: inline-block;
+	text-decoration: none;
+}
+.main-footer p{display: none;}
+
+.main-footer .find-cities li {
+    margin-bottom: 20px;
+}
+
+.address-detail address{
+	color: #cdcbcc;
+	margin: 20px 0;
+}
+.address-detail a{
+	text-decoration: none;
+	color: #cdcbcc;
+}
+/* =============================================
+		main-Footer STYLE ends here							
+============================================= */
+
+/* =============================================
+	copyright last-Footer STYLE starts here							
+============================================= */
+
+.copyright-footer{
+	padding: 31px 0;
+	background-color: #181818;
+}
+.copyright-footer{
+	color: #727272;
+}
+
+/* =============================================
+	copyright last-Footer STYLE ends here							
+============================================= */
+
+/* =============================================
+		Footer STYLE ends here							
+============================================= */

@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--Meta tags-->
+    <meta charset="utf-8">
+    <!--Title-->
+	<title> A Professional Website</title>
+
+	<!--Style Sheets-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS/owl.carousel.min.css">
+	<link rel="stylesheet" href="CSS/font-awesome.min.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link rel="stylesheet" type="text/css" href="CSS/responsive.css">
+	<link rel="stylesheet" type="text/css" href="CSS/color.css">
+</head>
+<body>
+<!-- HEADER STARTS HERE -->	
+	<header>
+		<!-- .TOP-HEADER STARTS HERE -->	
+		<div class="top-header">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-12 col-md-4 col-lg-3 logo">
+						<figure><img src="./images/logo.png" alt="Here is logo"></figure>
+					</div>
+					<div class="col-sm-12 col-md-8 col-lg-9 nav-register">
+						<a href="#" class="menu-icon"></a>
+						<ul>
+							<li class="active"><a href="">Home<i class="fa fa-angle-down"></i></a>
+								<ul class="inside-ul">
+									<li><a href="">About Us</a></li>
+									<li><a href="">How it works</a></li>
+									<li><a href="">Typography</a></li>
+									<li><a href="">ShortCodes</a></li>
+									<li><a href="">Coming Soon</a></li>
+									<li><a href="">Page 404</a></li>
+								</ul>
+							</li>
+							<li><a href="">Listings<i class="fa fa-angle-down"></i></a></li>
+							<li><a href="">Property<i class="fa fa-angle-down"></i></a></li>
+							<li><a href="">Agencies<i class="fa fa-angle-down"></i></a></li>
+							<li><a href="">Agents<i class="fa fa-angle-down"></i></a></li>
+							<li><a href=""class="signup" data-toggle="modal" data-target="#myModal"><i class="fa fa-user"></i>Login</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<!--Bootstrap Modal mean PopUp Code starts here -->
+			<div class="container">
+  		<!-- Modal -->
+				<div class="modal fade" id="myModal" role="dialog">
+				    <div class="modal-dialog modal-sm">
+				    	<div class="modal-content">
+				      		<div class="modal-header">
+					        	<h4 class="modal-title">Sign In</h4>
+					        	<button type="button" class="close" data-dismiss="modal">&times;</button>
+				        	</div>
+				        	<div class="modal-body">
+						        <input type="text" placeholder="Username" id = "username">
+						        <input type="password" placeholder="password"  id = "password"><br>
+						        <a href = "#" class= "signin">SignIn</a><br>
+						      	<span><input type="checkbox">Remember me?</span>
+						        <a href = "#" class ="forgot">Forgot Password?</a>
+						        <p>or connect with</p>
+						        <span class="facebook"><i class="fa fa-facebook"></i><a href ="#">Facebook</a></span>
+						        <span class="google"><i class="fa fa-google"></i><a href ="#">Google</a></span>
+						        <p>Don't have an account?</p>
+						        <a href ="#" class="register">Register</a>
+				        	</div>
+				        	<div class="modal-footer">
+				        		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				        	</div>
+				      	</div>
+				    </div>
+				</div>
+			</div>
+
+		<!-- /.TOP-HEADER ENDS HERE -->	
+
+		<!-- .HEADER-SECTION CODE STARTS HERE -->
+		<div class="header-section">
+			<div class="container">
+				<p>PROPERTY FOR SALE AND FOR RENT AROUND THE WORLD.</p>
+				<h1>Search and Find Your <span class="color-red">Family House</span></h1>
+				<div class="col-sm-12 col-md-12 col-lg-12 category-search">
+					<a href="" class="status">Where<i class="fa fa-angle-down"></i></a>
+					<input type="text" placeholder="Title,Keyword,address,zip..." name="city" class="city">
+					<span class="user"><i class="fa fa-user"></i> Advance</span>
+					<span><a href="#" class="search"><i class="fa fa-search"></i>Search Properties</a></span>
+				</div>
+				<!-- Featured Categories -->
+				<div class="row">
+					<div class="col-sm-12 col-md-12 col-lg-12">
+						<h5 class="highlighted-categories-headline">browse more property types:</h5>
+						<ul class="categories">
+							<li>
+								<a href="#">
+									<i class="fa fa-home"></i>
+								</a>
+								<h4>Modern Villa</h4>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-home"></i>
+								</a>
+								<h4>Family House</h4>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-search"></i>
+								</a>
+								<h4>Town House</h4>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-cutlery"></i>
+								</a>
+								<h4>Condo</h4>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa fa-bed"></i>
+								</a>
+								<h4>Apartment</h4>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+<!-- HEADER ENDS HERE -->	
+
+	<!-- popular Listing startS HERE -->
+	<div class="popular-listing">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-6 col-lg-5">
+					<div class="popular-listing-title">
+						<h2><span class="color-red">Latest</span> Properties</h2>
+						<p>Listing Properties by location or properties near you.</p>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-7">
+					<div class="properties-types-list">
+						<ul>
+							<li><a href="">All</a></li>
+							<li><a href="">Apartment</a></li>
+							<li><a href="">Condo</a></li>
+							<li><a href="">Family House</a></li>
+							<li><a href="">Modern Villa</a></li>
+							<li><a href="">Town House</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="listing-carousel">
+			<div class="container">
+				<div class="slider2 owl-carousel owl-theme">
+					<div class="item">
+						<div class="listing-item-box">
+	                        <div class="listing-thumbnail">
+	                            <a href="#">
+	                                <span class="rent">For Rent</span>
+	                                <span class="description">Modern Villa</span>
+	                                <img src="./images/sham.jpg" alt="listing-photo">
+	                            </a>
+	                            <div class="user-experience">
+	                            	<img src="./images/user2.png" alt="listing-photo">
+	                                <h6>Grant Berron</h6>
+	                                <span>James cameron</span>
+	                                <span class="calendar"><i class="fa fa-calendar"></i>7 months</span>
+	                            </div>
+	                        </div>
+	                      	<div class="listing-item-detail">
+			    				<h5>Honey Restaurant</h5>
+			    				<ul class="listing-address-list">
+				    				<li><i class="fa fa-map-marker"></i>Bishop Avenue, New York</li>
+			    				</ul>
+	    						<ul class="like-list">
+	    							<li><span><i class="fa fa-heart"></i></span></li>
+	    							<li><span><i class="fa fa-search"></i></span></li>
+	    							<li><span><em class="color-red">$9,000</em> /mo</span></li>
+	    						</ul>
+	    						<ul class="room-detail">
+	    							<li><span><i class="fa fa-heart"></i></span>5 Beds</li>
+	    							<li><span><i class="fa fa-home"></i></span>5 Baths</li>
+	    							<li><span><i class="fa fa-bed"></i></span>1200 SqFt</li>
+	    						</ul>
+		    				</div>
+                    	</div>
+		    		</div>
+		    		<div class="item">
+						<div class="listing-item-box">
+	                        <div class="listing-thumbnail">
+	                             <a href="#">
+	                                <span class="rent">For Rent</span>
+	                                <span class="description">Modern Villa</span>
+	                                <img src="./images/sham.jpg" alt="listing-photo">
+	                            </a>
+	                            <div class="user-experience">
+	                            	<img src="./images/user1.png" alt="listing-photo">
+	                                <h6>Grant Berron</h6>
+	                                <span>James cameron</span>
+	                                <span class="calendar"><i class="fa fa-calendar"></i>7 months</span>
+	                            </div>
+	                        </div>
+	                      	<div class="listing-item-detail">
+			    				<h5>Grande Hotel</h5>
+			    				<ul class="listing-address-list">
+				    				<li><i class="fa fa-map-marker"></i>Bishop Avenue, New York</li>
+			    				</ul>
+	    						<ul class="like-list">
+	    							<li><span><i class="fa fa-heart"></i></span></li>
+	    							<li><span><i class="fa fa-search"></i></span></li>
+	    							<li><span><em class="color-red">$9,000</em> /mo</span></li>
+	    						</ul>
+	    						<ul class="room-detail">
+	    							<li><span><i class="fa fa-heart"></i></span>5 Beds</li>
+	    							<li><span><i class="fa fa-search"></i></span>5 Baths</li>
+	    							<li><span><i class="fa fa-search"></i></span>1200 SqFt</li>
+	    						</ul>
+		    				</div>
+                    	</div>
+		    		</div>
+		    		<div class="item">
+						<div class="listing-item-box">
+	                        <div class="listing-thumbnail">
+	                             <a href="#">
+	                                <span class="rent">For Rent</span>
+	                                <span class="description">Modern Villa</span>
+	                                <img src="./images/sham.jpg" alt="listing-photo">
+	                            </a>
+	                            <div class="user-experience">
+	                            	<img src="./images/user2.png" alt="listing-photo">
+	                                <h6>Grant Berron</h6>
+	                                <span>James cameron</span>
+	                                <span class="calendar"><i class="fa fa-calendar"></i>7 months</span>
+	                            </div>
+	                        </div>
+	                      	<div class="listing-item-detail">
+			    				<h5>Big Cinema</h5>
+			    				<ul class="listing-address-list">
+				    				<li><i class="fa fa-map-marker"></i>Bishop Avenue, New York</li>
+			    				</ul>
+	    						<ul class="like-list">
+	    							<li><span><i class="fa fa-heart"></i></span></li>
+	    							<li><span><i class="fa fa-search"></i></span></li>
+	    							<li><span><em class="color-red">$9,000</em> /mo</span></li>
+	    						</ul>
+	    						<ul class="room-detail">
+	    							<li><span><i class="fa fa-heart"></i></span>5 Beds</li>
+	    							<li><span><i class="fa fa-search"></i></span>5 Baths</li>
+	    							<li><span><i class="fa fa-search"></i></span>1200 SqFt</li>
+	    						</ul>
+		    				</div>
+                    	</div>
+		    		</div>
+		    		<div class="item">
+						<div class="listing-item-box">
+	                        <div class="listing-thumbnail">
+	                             <a href="#">
+	                                <span class="rent">For Rent</span>
+	                                <span class="description">Modern Villa</span>
+	                                <img src="./images/sham.jpg" alt="listing-photo">
+	                            </a>
+	                            <div class="user-experience">
+	                            	<img src="./images/user2.png" alt="listing-photo">
+	                                <h6>Grant Berron</h6>
+	                                <span>James cameron</span>
+	                                <span class="calendar"><i class="fa fa-calendar"></i>7 months</span>
+	                            </div>
+	                        </div>
+	                      	<div class="listing-item-detail">
+			    				<h5>Museum of London</h5>
+			    				<ul class="listing-address-list">
+				    				<li><i class="fa fa-map-marker"></i>Bishop Avenue, New York</li>
+			    				</ul>
+		    					<span class="color-green">Open</span>
+	    						<ul class="like-list">
+	    							<li><span><i class="fa fa-heart"></i></span></li>
+	    							<li><span><i class="fa fa-search"></i></span></li>
+	    							<li><span><em class="color-red">$9,000</em> /mo</span></li>
+	    						</ul>
+	    						<ul class="room-detail">
+	    							<li><span><i class="fa fa-heart"></i></span>5 Beds</li>
+	    							<li><span><i class="fa fa-search"></i></span>5 Baths</li>
+	    							<li><span><i class="fa fa-search"></i></span>1200 SqFt</li>
+	    						</ul>
+		    				</div>
+                    	</div>
+		    		</div>
+		    		<div class="item">
+						<div class="listing-item-box">
+	                        <div class="listing-thumbnail">
+	                            <a href="#">
+	                                <span class="rent">For Rent</span>
+	                                <span class="description">Modern Villa</span>
+	                                <img src="./images/sham.jpg" alt="listing-photo">
+	                            </a>
+	                            <div class="user-experience">
+	                            	<img src="./images/user2.png" alt="listing-photo">
+	                                <h6>Grant Berron</h6>
+	                                <span>James cameron</span>
+	                                <span class="calendar"><i class="fa fa-calendar"></i>7 months</span>
+	                            </div>
+	                        </div>
+	                      	<div class="listing-item-detail">
+			    				<h5>Laa Bomm</h5>
+			    				<ul class="listing-address-list">
+				    				<li><i class="fa fa-map-marker"></i>Bishop Avenue, New York</li>
+			    				</ul>
+	    						<ul class="like-list">
+	    							<li><span><i class="fa fa-heart"></i></span></li>
+	    							<li><span><i class="fa fa-search"></i></span></li>
+	    							<li><span><em class="color-red">$9,000</em> /mo</span></li>
+	    						</ul>
+	    						<ul class="room-detail">
+	    							<li><span><i class="fa fa-heart"></i></span>5 Beds</li>
+	    							<li><span><i class="fa fa-search"></i></span>5 Baths</li>
+	    							<li><span><i class="fa fa-search"></i></span>1200 SqFt</li>
+	    						</ul>
+		    				</div>
+                    	</div>
+		    		</div>
+		    		<div class="item">
+						<div class="listing-item-box">
+	                        <div class="listing-thumbnail">
+	                            <a href="#">
+	                                <span class="rent">For Rent</span>
+	                                <span class="description">Modern Villa</span>
+	                                <img src="./images/sham.jpg" alt="listing-photo">
+	                            </a>
+	                            <div class="user-experience">
+	                            	<img src="./images/user2.png" alt="listing-photo">
+	                                <h6>Grant Berron</h6>
+	                                <span>James cameron</span>
+	                                <span class="calendar"><i class="fa fa-calendar"></i>7 months</span>
+	                            </div>
+	                        </div>
+	                      	<div class="listing-item-detail">
+			    				<h5>Laa Bomm</h5>
+			    				<ul class="listing-address-list">
+				    				<li><i class="fa fa-map-marker"></i>Bishop Avenue, New York</li>
+			    				</ul>
+	    						<ul class="like-list">
+	    							<li><span><i class="fa fa-heart"></i></span></li>
+	    							<li><span><i class="fa fa-search"></i></span></li>
+	    							<li><span><em class="color-red">$9,000</em> /mo</span></li>
+	    						</ul>
+	    						<ul class="room-detail">
+	    							<li><span><i class="fa fa-heart"></i></span>5 Beds</li>
+	    							<li><span><i class="fa fa-search"></i></span>5 Baths</li>
+	    							<li><span><i class="fa fa-search"></i></span>1200 SqFt</li>
+	    						</ul>
+		    				</div>
+                    	</div>
+		    		</div>
+		    		<div class="item">
+						<div class="listing-item-box">
+	                        <div class="listing-thumbnail">
+	                            <a href="#">
+	                                <span class="rent">For Rent</span>
+	                                <span class="description">Modern Villa</span>
+	                                <img src="./images/sham.jpg" alt="listing-photo">
+	                            </a>
+	                            <div class="user-experience">
+	                            	<img src="./images/user2.png" alt="listing-photo">
+	                                <h6>Grant Berron</h6>
+	                                <span>James cameron</span>
+	                                <span class="calendar"><i class="fa fa-calendar"></i>7 months</span>
+	                            </div>
+	                        </div>
+	                      	<div class="listing-item-detail">
+			    				<h5>Laa Bomm</h5>
+			    				<ul class="listing-address-list">
+				    				<li><i class="fa fa-map-marker"></i>Bishop Avenue, New York</li>
+			    				</ul>
+	    						<ul class="like-list">
+	    							<li><span><i class="fa fa-heart"></i></span></li>
+	    							<li><span><i class="fa fa-search"></i></span></li>
+	    							<li><span><em class="color-red">$9,000</em> /mo</span></li>
+	    						</ul>
+	    						<ul class="room-detail">
+	    							<li><span><i class="fa fa-heart"></i></span>5 Beds</li>
+	    							<li><span><i class="fa fa-search"></i></span>5 Baths</li>
+	    							<li><span><i class="fa fa-search"></i></span>1200 SqFt</li>
+	    						</ul>
+		    				</div>
+                    	</div>
+		    		</div>
+		    		<div class="item">
+						<div class="listing-item-box">
+	                        <div class="listing-thumbnail">
+	                             <a href="#">
+	                                <span class="rent">For Rent</span>
+	                                <span class="description">Modern Villa</span>
+	                                <img src="./images/sham.jpg" alt="listing-photo">
+	                            </a>
+	                            <div class="user-experience">
+	                            	<img src="./images/user2.png" alt="listing-photo">
+	                                <h6>Grant Berron</h6>
+	                                <span>James cameron</span>
+	                                <span class="calendar"><i class="fa fa-calendar"></i>7 months</span>
+	                            </div>
+	                        </div>
+	                      	<div class="listing-item-detail">
+			    				<h5>Laa Bomm</h5>
+			    				<ul class="listing-address-list">
+				    				<li><i class="fa fa-map-marker"></i>Bishop Avenue, New York</li>
+			    				</ul>
+	    						<ul class="like-list">
+	    							<li><span><i class="fa fa-heart"></i></span></li>
+	    							<li><span><i class="fa fa-search"></i></span></li>
+	    							<li><span><em class="color-red">$9,000</em> /mo</span></li>
+	    						</ul>
+	    						<ul class="room-detail">
+	    							<li><span><i class="fa fa-heart"></i></span>5 Beds</li>
+	    							<li><span><i class="fa fa-search"></i></span>5 Baths</li>
+	    							<li><span><i class="fa fa-search"></i></span>1200 SqFt</li>
+	    						</ul>
+		    				</div>
+                    	</div>
+		    		</div>
+		    		<div class="item">
+						<div class="listing-item-box">
+	                        <div class="listing-thumbnail">
+	                            <a href="#">
+	                                <span class="rent">For Rent</span>
+	                                <span class="description">Modern Villa</span>
+	                                <img src="./images/sham.jpg" alt="listing-photo">
+	                            </a>
+	                            <div class="user-experience">
+	                            	<img src="./images/user2.png" alt="listing-photo">
+	                                <h6>Grant Berron</h6>
+	                                <span>James cameron</span>
+	                                <span class="calendar"><i class="fa fa-calendar"></i>7 months</span>
+	                            </div>
+	                        </div>
+	                      	<div class="listing-item-detail">
+			    				<h5>Laa Bomm</h5>
+			    				<ul class="listing-address-list">
+				    				<li><i class="fa fa-map-marker"></i>Bishop Avenue, New York</li>
+			    				</ul>
+	    						<ul class="like-list">
+	    							<li><span><i class="fa fa-heart"></i></span></li>
+	    							<li><span><i class="fa fa-search"></i></span></li>
+	    							<li><span><em class="color-red">$9,000</em> /mo</span></li>
+	    						</ul>
+	    						<ul class="room-detail">
+	    							<li><span><i class="fa fa-heart"></i></span>5 Beds</li>
+	    							<li><span><i class="fa fa-search"></i></span>5 Baths</li>
+	    							<li><span><i class="fa fa-search"></i></span>1200 SqFt</li>
+	    						</ul>
+		    				</div>
+                    	</div>
+		    		</div>
+		    	</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- popular Listing endS HERE -->
+
+	<!-- SERVICES STARTS HERE -->
+	<div class="services">
+		<div class="container">
+			<div class="services-title text-center">
+				<h2>Working WITH <span class="color-red">NOUMAN </span></h2>
+				<p>Why You work with matters</p>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-6 col-lg-4">
+					<div class="services-info">
+						<figure>
+							<img src="./images/icon1.jpg">
+						</figure>
+						<h3>PERSONALIZED SERVICE</h3>
+						<p>Sed ut perspiciatis unde omnis iste natus error 
+						sit voluptatem accusantium doloremque 
+						laudantium, totam rem aperiam.</p>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-4">
+					<div class="services-info box shadow">
+						<figure>
+							<img src="./images/icon2.jpg">
+						</figure>
+						<h3>LUXURY REAL ESTATE EXPERTS</h3>
+						<p>Sed ut perspiciatis unde omnis iste natus error 
+						sit voluptatem accusantium doloremque 
+						laudantium, totam rem aperiam.</p>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-4">
+					<div class="services-info">
+						<figure>
+							<img src="./images/icon3.jpg">
+						</figure>
+						<h3>MODERN BUILDING FOR RENT & SELL</h3>
+						<p>Sed ut perspiciatis unde omnis iste natus error 
+						sit voluptatem accusantium doloremque 
+						laudantium, totam rem aperiam.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- SERVICES ENDS HERE -->
+
+	<!-- About Us starts HERE -->
+		<div class="about-us">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-md-6 col-lg-4 logosecond">
+						<figure><img src="./images/logo1.png"></figure>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-8 contact-us">
+						<ul>
+							<li><a href=""> Home </a></li>
+							<li><a href=""> About Us </a></li>
+							<li><a href=""> Contact Us </a></li>
+							<li><a href=""> Support Desk </a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- About Us Ends Here -->
+		
+	<!-- FOOTER Starts Here -->	
+	<footer>
+		<div class="main-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-6 col-lg-3">
+						<div class="contact-details">
+							<h3>About Us</h3>
+							<p>I am saqlain</p>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-3">
+						<div class="connect-with-us">
+							<h3>NewsLetter Subscribe</h3>
+							<div class="input">
+								<label>Email Address:</label>
+								<input type="email" name="email" class="enter-email" placeholder="Your email address">
+								<a class="btn-enter" href="#">Sign Up</a>
+							</div>
+							<h5>Connect With Us</h5>
+							<ul class="social-links">
+								<li><i class="fa fa-facebook"></i></li>
+								<li><i class="fa fa-twitter"></i></li>
+								<li><i class="fa fa-google-plus"></i></li>
+								<li><i class="fa fa-youtube"></i></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-3">
+						<div class="find-cities">
+							<h3>Contact Us</h3>
+							<div class="address-detail">
+								<h4 class="color-red">NOUMAN PROPERTY</h4>
+								<address>142 West Newton.NY 19088 United States</address>
+								<a href="tel:+100(234) 222 3333">+100 (234) 222 3333</a>
+								<a href="mailto:info@realitywp.com" class="email">info@realitywp.com</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-3">
+						<div class="find-cities">
+							<h3>Useful Links</h3>
+							<ul class="Links-list">
+								<li><a href=""> Departments </a></li>
+								<li><a href=""> Home in Boston </a></li>
+								<li><a href=""> Inspirirng Design </a></li>
+								<li><a href=""> Real Blog </a></li>
+								<li><a href=""> Uncategorized </a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-footer">
+			<div class="container">
+				<div class="col-sm-12 col-md-6 col-lg-12 text-center">
+					<p>© 2019 Procity All rights reserved. Design by Creative Layers</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- footer ends HERE -->
+
+
+
+
+
+
+
+	<script src="JS/jquery-3.3.1.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+     <script src="JS/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="JS/custom.js"></script>
+</body>
+</html>
